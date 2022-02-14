@@ -14,16 +14,10 @@
     <header class="header">
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
-      <div class="header__subtitle">
+      <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a href="#" class="header__link">Узнать</a>
-      </div>
-      <!-- Вариант 1/3. В этом варианте используется прозрачное изображение с alt и реальным изображением в url
-        Плюсы: изображение-заглушка всегда есть и не может отсутствовать; есть alt для поисковиков; при пропадании
-        файла с фоновой картинкой (из css) не появится неприятный пустой квадрат. Минусы: не вижу -->
-      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-        alt="Картина Опять Двойка Решетникова" class="header__main-illustration" />
-      <div class="header__square-pic"></div>
+      </p>
     </header>
 
     <main class="content">
@@ -49,8 +43,8 @@
       </section>
 
       <section class="digits">
-        <h2 class="section-title title2">Цифры и факты</h2>
-        <div class="section-subtitle">Про учёбу и мозг</div>
+        <h2 class="section-title page_title2">Цифры и факты</h2>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
           <li class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
@@ -99,87 +93,80 @@
 
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <div class="feinman__subtitle">Выучить и не забыть.</div>
-        <div><a class="feynman__link" href="#">Подробнее</a></div>
-        <!-- Вариант 2/3. В этом варианте вместо alt используется aria-label. Плюсы: обеспечена доступность;
-          при пропадании файла с фоновой картинкой (из css) не появится неприятный пустой квадрат. Минусы: нет alt
-          поисковиков -->
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a class="feynman__link" href="#">Подробнее</a>
         <div class="feynman__main-illustration" role="img" aria-label="Портрет Фейнмана"></div>
       </section>
 
       <section class="kaufman">
-        <h2 class="section-title title2 section-title_theme_dark">
+        <h2 class="section-title page_title2 section-title_theme_dark">
           Принципы обучения
         </h2>
-        <div class="section-subtitle section-subtitle_theme_dark">
+        <p class="section-subtitle section-subtitle_theme_dark">
           от Джоша Кауфмана
-        </div>
+        </p>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">1</h3>
-            <p class="table__text section_theme_dark">
+            <p class="table__text">
               Выберите привлекательный проект.
             </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">2</h3>
-            <p class="table__text section_theme_dark">
+            <p class="table__text">
               Сосредоточьтесь на каком-то одном навыке.
             </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">3</h3>
-            <p class="table__text section_theme_dark">
+            <p class="table__text">
               Определите целевой уровень мастерства.
             </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">4</h3>
-            <p class="table__text section_theme_dark">
+            <p class="table__text">
               Разбейте навык на элементы.
             </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">5</h3>
-            <p class="table__text section_theme_dark">
+            <p class="table__text">
               Приготовьте всё необходимое для занятий.
             </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">6</h3>
-            <p class="table__text section_theme_dark">
+            <p class="table__text">
               Устраните препятствия для занятий.
             </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">7</h3>
-            <p class="table__text section_theme_dark">
+            <p class="table__text">
               Выделите специальное время для занятий.
             </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">8</h3>
-            <p class="table__text section_theme_dark">
+            <p class="table__text">
               Создайте быстрые петли обратной связи.
             </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">9</h3>
-            <p class="table__text section_theme_dark">
+            <p class="table__text">
               Занимайтесь по расписанию, короткими интенсивными интервалами.
             </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">10</h3>
-            <p class="table__text section_theme_dark">
+            <p class="table__text">
               Уделяйте внимание количеству и скорости.
             </p>
           </li>
         </ul>
-        <!-- Вариант 3/3. В этом варианте используется пустой блок в html с изображением в css. Плюсы: при пропадании
-          файла с фоновой картинкой (из css) не появится неприятный пустой квадрат. Минусы: нет alt для поисковиков.
-          -->
-        <div class="kaufman__triangle"></div>
       </section>
     </main>
 
@@ -187,20 +174,20 @@
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
-          <div class="footer__author">
+          <p class="footer__author">
             2022. Александр Ганюшкин aka iReset
-          </div>
+          </p>
         </div>
-        <div class="footer__column footer__column_content_info">
-          <div class="footer__column-heading">О Практикуме</div>
+        <nav class="footer__column footer__column_content_info">
+          <h5 class="footer__column-heading">О Практикуме</h5>
           <div class="footer__column-links">
             <a class="footer__column-link" href="#">Главная</a>
             <a class="footer__column-link" href="#">Концепция</a>
             <a class="footer__column-link" href="#">Наставники</a>
           </div>
-        </div>
+        </nav>
         <div class="footer__column footer__column_content_social">
-          <div class="footer__column-heading">Соцсети</div>
+          <h5 class="footer__column-heading">Соцсети</h5>
           <div class="footer__column-links">
             <a class="footer__column-link" href="#">
               <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="" />Facebook
