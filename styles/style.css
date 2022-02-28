@@ -1,12 +1,3 @@
-.two-columns__brief {
-  width: 175px;
-  margin: 0 20px 0 0;
-  color: #2f80ed;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
