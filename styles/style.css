@@ -1,12 +1,3 @@
-.feynman {
-  min-height: 890px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  background: #f2f2f2 url("../images/feynman.png") bottom left no-repeat;
-}
-
 .feynman__title {
   margin: 0;
   padding: 100px 0 70px;
