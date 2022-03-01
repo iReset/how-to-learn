@@ -1,15 +1,3 @@
-
-.kaufman {
-  margin: 0;
-  padding: 90px 0;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  overflow: hidden;
-  align-items: center;
-  background: #1f1f1f;
-}
-
 .kaufman__triangle {
   position: absolute;
   right: -210px;
