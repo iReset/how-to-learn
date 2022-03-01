@@ -1,9 +1,3 @@
-.footer__columns {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
