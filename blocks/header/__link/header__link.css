@@ -5,7 +5,7 @@
 }
 
 .header__link::after {
-  content: " \2192"; /*&rarr;*/
+  content: "\a0\2192"; /* &nbsp;&rarr; */
 }
 
 .header__link:hover {

@@ -7,5 +7,5 @@
 }
 
 .footer__author::before {
-  content: "\a9  ";
+  content: "\a9\a0"; /* &copy;&nbsp; */
 }
