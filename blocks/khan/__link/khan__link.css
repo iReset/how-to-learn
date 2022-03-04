@@ -1,0 +1,17 @@
+.khan__link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #2f80ed;
+  transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.khan__link::after {
+  content: "\a0\2192"; /* &nbsp;&rarr; */
+}
+
+.khan__link:hover {
+  opacity: 0.6;
+}
