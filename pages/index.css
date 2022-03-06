@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 
-@import url(../blocks/rotation/__clockwise/rotation__clockwise.css);
+@import url(../blocks/rotation/rotation.css);
 
 @import url(../blocks/page/page.css);
 

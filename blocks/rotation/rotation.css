@@ -7,6 +7,6 @@
   }
 }
 
-.rotation__clockwise {
+.rotation {
   animation: rotation 20s linear infinite;
 }
