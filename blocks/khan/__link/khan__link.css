@@ -1,7 +1,8 @@
 .khan__link {
   line-height: 42px;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: normal;
+  /* стыдобища 😖 */
   text-decoration: none;
   color: #2f80ed;
   transition: opacity 0.5s ease-in-out;
